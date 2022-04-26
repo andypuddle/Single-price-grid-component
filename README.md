@@ -26,7 +26,7 @@ Users should be able to:
 ![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/desktop-design.jpg)
 
 ### mobile
-![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/desktop-mobile.jpg)
+![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/mobile-design.jpg)
 
 ### Links
 
