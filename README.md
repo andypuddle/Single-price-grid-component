@@ -22,8 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot-desktop.png)
-![](./design/screenshot-mobile.png)
+### desktop
+![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/desktop-design.jpg)
+
+### mobile
+![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/desktop-mobile.jpg)
 
 ### Links
 
