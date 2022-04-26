@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+:root{
+/* --Colors-- */
+
+  /* Primary */
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+  /* Neutral */
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla',sans-serif;
+  font-size: 18px;
+}
+
+body{
+  background-color: var(--Light-Gray);
+  padding: 80px 0;
+}
+
+main{
+  width: 335px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-top{
+  background-color: white;
+  padding: 25px;
+}
+
+h1{
+  color: var(--Cyan);
+  margin-bottom: 25px;
+}
+
+.guarantee{
+  color: var(--Bright-Yellow);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.card-top > p{
+  color: var(--Grayish-Blue);
+  font-size: 14px;
+  line-height: 2em;
+}
+
+
+.subscribe{
+  background-color: var(--Cyan);
+  padding: 25px;
+}
+
+.title-bottom{
+  color: white;
+  margin-bottom: 15px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.term{
+  margin-left: 10px;
+  color: var(--Light-Gray);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.subscribe > p {
+  color: white;
+  font-size: 14px;
+  margin: 10px 0 30px;
+  font-weight: 300;
+}
+
+button{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--Bright-Yellow);
+  color: white;
+  padding: 15px 0;
+  font-size: 14px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  transition: all .2s ease-in-out;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.about{
+  background-color: hsl(179, 56%, 56%);
+  padding: 25px;
+}
+
+ul{
+  list-style: none;
+  color: #fff;
+}
+
+ul > li {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--Light-Gray);
+  line-height: 1.5em;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 14px;
+}
+
+@media screen and (min-width:600px){
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  }
+
+  main{
+    width: 550px;
+  }
+
+  .card-bottom{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+  }
+}
