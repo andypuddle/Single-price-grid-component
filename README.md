@@ -23,10 +23,10 @@ Users should be able to:
 ### Screenshot
 
 ### desktop
-![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/desktop-design.jpg)
+![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/screenshot-desktop.png)
 
 ### mobile
-![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/mobile-design.jpg)
+![](https://github.com/andypuddle/Single-price-grid-component/blob/main/design/screenshot-mobile.png)
 
 ### Links
 
